@@ -1,0 +1,147 @@
+#!/bin/bash 
+#ishan Gurung 
+#This is PlayerRead function 
+playerRead(){ 
+
+PS3="Choose any number form the list:- "  
+select Players in $p1 $p2 $p3  
+do    
+  if [[ -z "$Players" ]]      
+   then        
+	echo "Input is Invalid!"        
+   playerChoose #If input is invalid playerChoose function is called.      
+  else        
+	echo "You choose favourite player."        
+	if [[ $Players == KC ]];        
+	then          
+			cat KC        
+	elif [[ $Players == LM ]];        
+	then          
+		cat LM        
+	elif [[ $Players == NJ ]];        
+	then 
+		cat NJ       
+		     
+	elif [[ $Players == ZZ ]];        
+	then          
+		echo -e "Player details is unavailable"          
+	    countryList        
+	elif [[ $Players == HK ]];        
+	then          
+  		echo -e "Player details is unavailable"
+  		countryList      
+	fi        
+	echo -e "\n Do you want restart the program (y|n)"
+
+     read answer        
+     if [[ $answer == y ]]        
+     then          
+       countryList #countryChoose function is calling        
+     fi    
+ fi    
+ break  
+done 
+}
+
+playerChoose(){  
+	echo -e "Choose 3 players using player code: \c"  
+	read p1 p2 p3 
+
+	if  [ "$p1" = "$p2" ] || [ "$p1" = "$p3" ] || [ "$p2" = "$p3" ]
+	then
+	  	echo "Player code is repeated! please check again!!"
+	  	playerChoose
+	fi 
+	case $p1 in    
+     "KC" | "LM" | "NJ" | "ZZ" | "HK")    
+    case $p2 in      
+	"KC" | "LM" | "NJ" | "ZZ" | "HK")
+    case $p3 in       
+    "KC" | "LM" | "NJ" | "ZZ" | "HK") 
+       
+       playerRead           
+       ;;        
+       *) echo "Third player invalid"        
+       playerChoose        
+       ;;      
+     esac          
+       ;;      
+       *) echo "Second player invalid"      
+       playerChoose      
+       ;;    
+     esac    
+       ;;    
+       *) echo "First player invalid"    
+        playerChoose    
+        ;;  
+      esac 
+
+   
+  }
+playerList(){  
+	echo -e "Choose 3 Player using code:"  
+	echo -e "Player Name       Player Code"  
+	echo -e "Kiran Chemjong    KC"  
+	echo -e "Liinel Messi      KM"  
+	echo -e "Neymar Junior     NJ"  
+	echo -e "Zheng Zhi         ZZ"  
+	echo -e "Harry Kane        HK"  
+	playerChoose 
+}
+
+countryChoose() {  
+	bestCountry="NEP"  
+	echo "Select country using country code"  
+	until [[ $countryChoosed == $bestCountry ]];  
+	do    
+		read -p "Choose the country code" countryChoosed    
+		if [[ $countryChoosed == $bestCountry ]];     
+			then      
+				break    
+			else      
+				echo "Enter the best country from list."    
+			fi  
+		done  
+		 echo "You choose Nepal as the best country."  
+		 playerList
+}
+
+    countryList (){  
+    	echo -e "Choose a country using the country code:"  
+    	echo -e "County Name        Country Code"  
+    	echo -e "Nepal              NEP"
+    	echo -e "China		    CHI" 
+    	echo -e "Brazil		    BRZ"  
+    	echo -e "Argentina	    ARG" 
+    	echo -e "England	    ENG"
+
+  countryChoose #choose country function is calling 
+}
+
+if [[ $# != 2 ]] 
+then
+	echo "Enter username and userId as parameter!!"
+    exit
+fi
+
+    name=$1    
+    id=$2    
+    count=0 
+    
+    while [[ $count -lt 4 ]]   
+    do      
+      echo -e "Enter your Password:\c"      
+      read -s Password      
+      if [[ $Password == ishan ]];      
+      then            
+	      echo -e "\nWelcome To the Program." #Welcome             
+	      echo -e "id:  id" #display ID           
+	      echo -e "Username:  name" #display username              
+	      echo -e "Date of execution: $(date)" #display date of execution
+	      countryList            
+	      break      
+      else         
+         echo -e "Wrong Password!"      
+      fi      
+        let count++ #value of count is increasing    
+    done

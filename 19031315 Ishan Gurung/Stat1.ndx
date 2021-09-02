@@ -1,0 +1,162 @@
+ |CLDVC:WAN Cloud:Itahari-Edinburgh:FrmDelay:1|      199
+ |CLDVC:WAN Cloud:Itahari-Edinburgh:Burst:1|      386
+ |CONFIG:WAN Cloud.Edinburgh Access:BusyLevelX:1|      570
+ |CONFIG:WAN Cloud.Edinburgh Access:BusyLevelY:1|      766
+ |CONFIG:WAN Cloud.Edinburgh Access:OutBufferLevel:1|      962
+ |CONFIG:WAN Cloud.Itahari Access:BusyLevelX:1|     1171
+ |CONFIG:WAN Cloud.Itahari Access:BusyLevelY:1|     1363
+ |CONFIG:WAN Cloud.Itahari Access:OutBufferLevel:1|     1555
+ |CONFIG:WAN Cloud.Butwal Access:BusyLevelX:1|     1760
+ |CONFIG:WAN Cloud.Butwal Access:BusyLevelY:1|     1950
+ |CONFIG:WAN Cloud.Butwal Access:OutBufferLevel:1|     2140
+ |CLDVC:WAN Cloud:Edinburgh Itahari:FrmDelay:1|     2343
+ |CLDVC:WAN Cloud:Edinburgh Itahari:Burst:1|     2530
+ |CLDVC:WAN Cloud:Edinburgh-Butwal:FrmDelay:1|     2714
+ |CLDVC:WAN Cloud:Edinburgh-Butwal:Burst:1|     2899
+ |CLDVC:WAN Cloud:Butwal-Edinburgh:FrmDelay:1|     3081
+ |CLDVC:WAN Cloud:Butwal-Edinburgh:Burst:1|     3266
+ |Msg:Itahari LAN.Itahari ATM 1-30:Itahari ATM Message Source:Edinburgh LAN.Edinburgh Server:transcmddelivered:1|     3448
+ |Node:Itahari LAN.Itahari Router:tokenlevel:1|     3758
+ |Node:Itahari LAN.Itahari Router:nodebufferlevelI:1|     3928
+ |Node:Itahari LAN.Itahari Router:nodebufferlevelO:1|     4104
+ |CONFIG:Itahari LAN.Itahari Router:appnodebusyprocs:1|     4280
+ |CONFIG:Itahari LAN.Itahari Router:busybus:1|     4458
+ |CONFIG:Itahari LAN.Itahari Router:UsedBytesLevel:1|     4618
+ |CONFIG:Itahari LAN.Itahari Link:BusyLevelX:1|     4794
+ |CONFIG:Itahari LAN.Itahari Link:BusyLevelY:1|     4986
+ |CONFIG:Itahari LAN.Itahari Link:tokendelayX:1|     5178
+ |CONFIG:Itahari LAN.Itahari Link:tokendelayY:1|     5364
+ |CONFIG:Itahari LAN.Itahari Link:FrameSizeX:1|     5550
+ |CONFIG:Itahari LAN.Itahari Link:FrameSizeY:1|     5735
+ |CONFIG:Itahari LAN.Itahari Link:framelevel:1|     5920
+ |CONFIG:Itahari LAN.Itahari Link:framedelay:1|     6121
+ |CONFIG:Itahari LAN.Itahari Link:MultipleCllsns:1|     6306
+ |CONFIG:Itahari LAN.Itahari Link:CllsnsPerFrame:1|     6486
+ |CONFIG:Itahari LAN.Itahari Link:tokenlevel:1|     6666
+ |Msg:Itahari LAN.Itahari Teller Machine:Itahari Teller Message Sourse:Edinburgh LAN.Edinburgh Server:transcmddelivered:1|     6867
+ |Node:Itahari LAN.Itahari Teller Machine:tokenlevel:1|     7195
+ |Node:Itahari LAN.Itahari Teller Machine:nodebufferlevelI:1|     7373
+ |Node:Itahari LAN.Itahari Teller Machine:nodebufferlevelO:1|     7557
+ |CONFIG:Itahari LAN.Itahari Teller Machine:appnodebusyprocs:1|     7741
+ |CONFIG:Itahari LAN.Itahari Teller Machine:UsedBytesLevel:1|     7927
+ |Node:Itahari LAN.Itahari ATM 1-30(Min):tokenlevel:1|     8111
+ |Node:Itahari LAN.Itahari ATM 1-30(Mid):tokenlevel:1|     8288
+ |Node:Itahari LAN.Itahari ATM 1-30(Max):tokenlevel:1|     8465
+ |Node:Itahari LAN.Itahari ATM 1-30(Min):nodebufferlevelI:1|     8642
+ |Node:Itahari LAN.Itahari ATM 1-30(Mid):nodebufferlevelI:1|     8825
+ |Node:Itahari LAN.Itahari ATM 1-30(Max):nodebufferlevelI:1|     9008
+ |Node:Itahari LAN.Itahari ATM 1-30(Min):nodebufferlevelO:1|     9191
+ |Node:Itahari LAN.Itahari ATM 1-30(Mid):nodebufferlevelO:1|     9374
+ |Node:Itahari LAN.Itahari ATM 1-30(Max):nodebufferlevelO:1|     9557
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Min):UsedBytesLevel:1|     9740
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Mid):UsedBytesLevel:1|     9923
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Max):UsedBytesLevel:1|    10106
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Min):appnodebusyprocs:1|    10289
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Mid):appnodebusyprocs:1|    10474
+ |CONFIG:Itahari LAN.Itahari ATM 1-30(Max):appnodebusyprocs:1|    10659
+ |Msg:Edinburgh LAN.Edinburgh Server:Edinburgh Response Source::ECHO:transcmddelivered:1|    10844
+ |Node:Edinburgh LAN.Edinburgh Server:tokenlevel:1|    11106
+ |Node:Edinburgh LAN.Edinburgh Server:nodebufferlevelI:1|    11280
+ |Node:Edinburgh LAN.Edinburgh Server:nodebufferlevelO:1|    11460
+ |CONFIG:Edinburgh LAN.Edinburgh Server:appnodebusyprocs:1|    11640
+ |CONFIG:Edinburgh LAN.Edinburgh Server:UsedBytesLevel:1|    11822
+ |CONFIG:Edinburgh LAN.Edinburgh Link:BusyLevelX:1|    12002
+ |CONFIG:Edinburgh LAN.Edinburgh Link:tokendelayX:1|    12202
+ |CONFIG:Edinburgh LAN.Edinburgh Link:FrameSizeX:1|    12396
+ |CONFIG:Edinburgh LAN.Edinburgh Link:TokenRotationTime:1|    12589
+ |CONFIG:Edinburgh LAN.Edinburgh Link:NodeAccessDuration:1|    12789
+ |CONFIG:Edinburgh LAN.Edinburgh Link:NbrNodesWaiting:1|    12990
+ |CONFIG:Edinburgh LAN.Edinburgh Link:tokenlevel:1|    13204
+ |Node:Edinburgh LAN.Edinburgh Router:tokenlevel:1|    13413
+ |Node:Edinburgh LAN.Edinburgh Router:nodebufferlevelI:1|    13587
+ |Node:Edinburgh LAN.Edinburgh Router:nodebufferlevelO:1|    13767
+ |CONFIG:Edinburgh LAN.Edinburgh Router:appnodebusyprocs:1|    13947
+ |CONFIG:Edinburgh LAN.Edinburgh Router:busybus:1|    14129
+ |CONFIG:Edinburgh LAN.Edinburgh Router:UsedBytesLevel:1|    14293
+ |Msg:Butwal LAN.Butwal Teller Machine:Butwal Teller Message Source:Edinburgh LAN.Edinburgh Server:transcmddelivered:1|    14473
+ |Msg:Butwal LAN.Butwal ATM 1-30:Butwal ATM Message Source:Edinburgh LAN.Edinburgh Server:transcmddelivered:1|    14795
+ |Node:Butwal LAN.Butwal Router:tokenlevel:1|    15099
+ |Node:Butwal LAN.Butwal Router:nodebufferlevelI:1|    15267
+ |Node:Butwal LAN.Butwal Router:nodebufferlevelO:1|    15441
+ |CONFIG:Butwal LAN.Butwal Router:appnodebusyprocs:1|    15615
+ |CONFIG:Butwal LAN.Butwal Router:busybus:1|    15791
+ |CONFIG:Butwal LAN.Butwal Router:UsedBytesLevel:1|    15949
+ |CONFIG:Butwal LAN.Butwal Link:BusyLevelX:1|    16123
+ |CONFIG:Butwal LAN.Butwal Link:BusyLevelY:1|    16311
+ |CONFIG:Butwal LAN.Butwal Link:tokendelayX:1|    16499
+ |CONFIG:Butwal LAN.Butwal Link:tokendelayY:1|    16681
+ |CONFIG:Butwal LAN.Butwal Link:FrameSizeX:1|    16863
+ |CONFIG:Butwal LAN.Butwal Link:FrameSizeY:1|    17044
+ |CONFIG:Butwal LAN.Butwal Link:framelevel:1|    17225
+ |CONFIG:Butwal LAN.Butwal Link:framedelay:1|    17422
+ |CONFIG:Butwal LAN.Butwal Link:MultipleCllsns:1|    17603
+ |CONFIG:Butwal LAN.Butwal Link:CllsnsPerFrame:1|    17779
+ |CONFIG:Butwal LAN.Butwal Link:tokenlevel:1|    17955
+ |Node:Butwal LAN.Butwal ATM 1-30(Min):tokenlevel:1|    18152
+ |Node:Butwal LAN.Butwal ATM 1-30(Mid):tokenlevel:1|    18327
+ |Node:Butwal LAN.Butwal ATM 1-30(Max):tokenlevel:1|    18502
+ |Node:Butwal LAN.Butwal ATM 1-30(Min):nodebufferlevelI:1|    18677
+ |Node:Butwal LAN.Butwal ATM 1-30(Mid):nodebufferlevelI:1|    18858
+ |Node:Butwal LAN.Butwal ATM 1-30(Max):nodebufferlevelI:1|    19039
+ |Node:Butwal LAN.Butwal ATM 1-30(Min):nodebufferlevelO:1|    19220
+ |Node:Butwal LAN.Butwal ATM 1-30(Mid):nodebufferlevelO:1|    19401
+ |Node:Butwal LAN.Butwal ATM 1-30(Max):nodebufferlevelO:1|    19582
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Min):UsedBytesLevel:1|    19763
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Mid):UsedBytesLevel:1|    19944
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Max):UsedBytesLevel:1|    20125
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Min):appnodebusyprocs:1|    20306
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Mid):appnodebusyprocs:1|    20489
+ |CONFIG:Butwal LAN.Butwal ATM 1-30(Max):appnodebusyprocs:1|    20672
+ |Node:Butwal LAN.Butwal Teller Machine:tokenlevel:1|    20855
+ |Node:Butwal LAN.Butwal Teller Machine:nodebufferlevelI:1|    21031
+ |Node:Butwal LAN.Butwal Teller Machine:nodebufferlevelO:1|    21213
+ |CONFIG:Butwal LAN.Butwal Teller Machine:appnodebusyprocs:1|    21395
+ |CONFIG:Butwal LAN.Butwal Teller Machine:UsedBytesLevel:1|    21579
+ |PORT:Itahari LAN.Itahari Router:WAN Cloud:I:busyport:1|    21761
+ |PORT:Itahari LAN.Itahari Router:WAN Cloud:I:portbufferlevel:1|    21975
+ |PORT:Itahari LAN.Itahari Router:WAN Cloud:O:busyport:1|    22205
+ |PORT:Itahari LAN.Itahari Router:WAN Cloud:O:portbufferlevel:1|    22419
+ |PORT:Itahari LAN.Itahari Router:Itahari Link:I:busyport:1|    22649
+ |PORT:Itahari LAN.Itahari Router:Itahari Link:I:portbufferlevel:1|    22869
+ |PORT:Itahari LAN.Itahari Router:Itahari Link:O:busyport:1|    23105
+ |PORT:Itahari LAN.Itahari Router:Itahari Link:O:portbufferlevel:1|    23325
+ |PORT:Itahari LAN.Itahari Teller Machine:Itahari Link:I:busyport:1|    23561
+ |PORT:Itahari LAN.Itahari Teller Machine:Itahari Link:I:portbufferlevel:1|    23797
+ |PORT:Itahari LAN.Itahari Teller Machine:Itahari Link:O:busyport:1|    24049
+ |PORT:Itahari LAN.Itahari Teller Machine:Itahari Link:O:portbufferlevel:1|    24285
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:I(Min):portbufferlevel:1|    24537
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:I(Mid):portbufferlevel:1|    24787
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:I(Max):portbufferlevel:1|    25037
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:O(Min):portbufferlevel:1|    25287
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:O(Mid):portbufferlevel:1|    25537
+ |PORT:Itahari LAN.Itahari ATM 1-30:Itahari Link:O(Max):portbufferlevel:1|    25787
+ |PORT:Edinburgh LAN.Edinburgh Server:Edinburgh Link:I:busyport:1|    26037
+ |PORT:Edinburgh LAN.Edinburgh Server:Edinburgh Link:I:portbufferlevel:1|    26269
+ |PORT:Edinburgh LAN.Edinburgh Server:Edinburgh Link:O:busyport:1|    26517
+ |PORT:Edinburgh LAN.Edinburgh Server:Edinburgh Link:O:portbufferlevel:1|    26749
+ |PORT:Edinburgh LAN.Edinburgh Router:Edinburgh Link:I:busyport:1|    26997
+ |PORT:Edinburgh LAN.Edinburgh Router:Edinburgh Link:I:portbufferlevel:1|    27229
+ |PORT:Edinburgh LAN.Edinburgh Router:Edinburgh Link:O:busyport:1|    27477
+ |PORT:Edinburgh LAN.Edinburgh Router:Edinburgh Link:O:portbufferlevel:1|    27709
+ |PORT:Edinburgh LAN.Edinburgh Router:WAN Cloud:I:busyport:1|    27957
+ |PORT:Edinburgh LAN.Edinburgh Router:WAN Cloud:I:portbufferlevel:1|    28179
+ |PORT:Edinburgh LAN.Edinburgh Router:WAN Cloud:O:busyport:1|    28417
+ |PORT:Edinburgh LAN.Edinburgh Router:WAN Cloud:O:portbufferlevel:1|    28639
+ |PORT:Butwal LAN.Butwal Router:Butwal Link:I:busyport:1|    28877
+ |PORT:Butwal LAN.Butwal Router:Butwal Link:I:portbufferlevel:1|    29091
+ |PORT:Butwal LAN.Butwal Router:Butwal Link:O:busyport:1|    29321
+ |PORT:Butwal LAN.Butwal Router:Butwal Link:O:portbufferlevel:1|    29535
+ |PORT:Butwal LAN.Butwal Router:WAN Cloud:I:busyport:1|    29765
+ |PORT:Butwal LAN.Butwal Router:WAN Cloud:I:portbufferlevel:1|    29975
+ |PORT:Butwal LAN.Butwal Router:WAN Cloud:O:busyport:1|    30201
+ |PORT:Butwal LAN.Butwal Router:WAN Cloud:O:portbufferlevel:1|    30411
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:I(Min):portbufferlevel:1|    30637
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:I(Mid):portbufferlevel:1|    30881
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:I(Max):portbufferlevel:1|    31125
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:O(Min):portbufferlevel:1|    31369
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:O(Mid):portbufferlevel:1|    31613
+ |PORT:Butwal LAN.Butwal ATM 1-30:Butwal Link:O(Max):portbufferlevel:1|    31857
+ |PORT:Butwal LAN.Butwal Teller Machine:Butwal Link:I:busyport:1|    32101
+ |PORT:Butwal LAN.Butwal Teller Machine:Butwal Link:I:portbufferlevel:1|    32331
+ |PORT:Butwal LAN.Butwal Teller Machine:Butwal Link:O:busyport:1|    32577
+ |PORT:Butwal LAN.Butwal Teller Machine:Butwal Link:O:portbufferlevel:1|    32807

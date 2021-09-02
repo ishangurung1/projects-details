@@ -1,0 +1,1590 @@
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     1
+
+                             19031315 Ishan Gurung                              
+
+                          NODES: NODE FULL UTILIZATION                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODES:                   BUSY CENTRAL PROCESSORS            BUSY BUSES  
+  PORTS:                  BUSY INPUT PROCESSORS        BUSY OUTPUT PROCESSORS
+                         MEAN     MAX      UTIL%      MEAN     MAX      UTIL%
+______________________  _______  ______   _______    _______  ______   _______
+
+Itahari LAN.Itahari Ro .0028723       1  .2872273   .0002900       1  .0290044
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+  Itahari LAN.Itahari       0.0       0       0.0        0.0       0       0.0
+
+Itahari LAN.Itahari Te .0010000       1  .1000000     N/A      N/A      N/A   
+  Itahari LAN.Itahari       0.0       0       0.0        0.0       0       0.0
+
+Edinburgh LAN.Edinburg      0.0       1       0.0     N/A      N/A      N/A   
+  Edinburgh LAN.Edinbu      0.0       0       0.0        0.0       0       0.0
+
+Edinburgh LAN.Edinburg .0019288       1  .1928788   .0001754       1  .0175449
+  Edinburgh LAN.Edinbu      0.0       0       0.0        0.0       0       0.0
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+
+Butwal LAN.Butwal Rout .0028871       1  .2887121   .0002908       1  .0290798
+  Butwal LAN.Butwal Li      0.0       0       0.0        0.0       0       0.0
+  WAN Cloud                 0.0       0       0.0        0.0       0       0.0
+
+Butwal LAN.Butwal Tell .0013333       1  .1333333     N/A      N/A      N/A   
+  Butwal LAN.Butwal Li      0.0       0       0.0        0.0       0       0.0
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     2
+
+                             19031315 Ishan Gurung                              
+
+                      NODES: PROCESSOR + DISK UTILIZATION                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                         DISK            DISK USAGE (KILOBYTES)       PROCESSOR
+                        REQSTS
+         NODE           GRNTED    AVERAGE        MAXIMUM      STD DEV    % UTIL
+______________________  ______  ____________  _____________  __________  ______
+
+  Itahari LAN.Itahari        0         0.000          0.000       0.000  0.2872
+  Itahari LAN.Itahari        0         0.000          0.000       0.000  0.1000
+  Itahari LAN.Itahari        0         0.000          0.000       0.000  2.4422
+
+  Edinburgh LAN.Edinbu       0         0.000          0.000       0.000  0.0000
+  Edinburgh LAN.Edinbu       0         0.000          0.000       0.000  0.1929
+  Butwal LAN.Butwal Ro       0         0.000          0.000       0.000  0.2887
+  Butwal LAN.Butwal AT       0         0.000          0.000       0.000  2.4411
+
+  Butwal LAN.Butwal Te       0         0.000          0.000       0.000  0.1333
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     3
+
+                             19031315 Ishan Gurung                              
+
+                         NODES: RECEIVED MESSAGE COUNTS                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+      RECEIVER            COUNT                   MESSAGE NAME
+______________________  __________  _________________________________________
+
+Edinburgh LAN.Edinburg       983    Itahari ATM Message Source               
+Edinburgh LAN.Edinburg       996    Butwal ATM Message Source                
+Edinburgh LAN.Edinburg         1    Itahari Teller Message Sourse            
+Edinburgh LAN.Edinburg         2    Butwal Teller Message Source             
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     4
+
+                             19031315 Ishan Gurung                              
+
+                              NODES: SESSION LEVEL                              
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                  SESSIONS IN PROGRESS
+NODE                        AVERAGE       STD DEV    MAXIMUM
+______________________   ___________   ___________   ________
+
+Itahari LAN.Itahari Ro          0.00          0.00          0
+Itahari LAN.Itahari Te          0.00          0.00          0
+Itahari LAN.Itahari AT          0.00          0.00          0
+
+Edinburgh LAN.Edinburg          0.00          0.00          0
+Edinburgh LAN.Edinburg          0.00          0.00          0
+Butwal LAN.Butwal Rout          0.00          0.00          0
+Butwal LAN.Butwal ATM           0.00          0.00          0
+
+Butwal LAN.Butwal Tell          0.00          0.00          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     5
+
+                             19031315 Ishan Gurung                              
+
+                           NODES: INPUT BUFFER TOTALS                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             PACKETS         BUFFER USE (P=PKTS, B=BYTES)
+NODE                   ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari LAN.Itahari Rou    18957        0          0          4         169 B
+Itahari LAN.Itahari Tel        5        0          0          0          40 B
+Itahari LAN.Itahari ATM     3176        0          0          1          80 B
+
+Edinburgh LAN.Edinburgh     6365        0          0          0         140 B
+Edinburgh LAN.Edinburgh    12730        0          0          3         177 B
+Butwal LAN.Butwal Route    19055        0          0          4         180 B
+Butwal LAN.Butwal ATM 1     3178        0          0          1          40 B
+
+Butwal LAN.Butwal Telle        6        0          0          0          40 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     6
+
+                             19031315 Ishan Gurung                              
+
+                          NODES: OUTPUT BUFFER TOTALS                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             PACKETS         BUFFER USE (P=PKTS, B=BYTES)
+NODE                   ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari LAN.Itahari Rou    18957        0      88480      53314      176724 B
+Itahari LAN.Itahari Tel       15        0          0          0         129 B
+Itahari LAN.Itahari ATM    15761        0          0          2         259 B
+
+Edinburgh LAN.Edinburgh     6365        0          0          2          80 B
+Edinburgh LAN.Edinburgh    12730        0         21         33         328 B
+Butwal LAN.Butwal Route    19055        0      88802      52629      175130 B
+Butwal LAN.Butwal ATM 1    15844        0          0          2         291 B
+
+Butwal LAN.Butwal Telle       27        0          0          0         140 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     7
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: INPUT NODE BUFFER POLICY                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+                         PACKETS        PACKETS          PACKETS     PACKETS
+NODE                     PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari LAN.Itahari R             0             0                0           0
+Itahari LAN.Itahari T             0             0                0           0
+Itahari LAN.Itahari A             0             0                0           0
+
+Edinburgh LAN.Edinbur             0             0                0           0
+Edinburgh LAN.Edinbur             0             0                0           0
+Butwal LAN.Butwal Rou             0             0                0           0
+Butwal LAN.Butwal ATM             0             0                0           0
+
+Butwal LAN.Butwal Tel             0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     8
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: OUTPUT NODE BUFFER POLICY                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+                         PACKETS        PACKETS          PACKETS     PACKETS
+NODE                     PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari LAN.Itahari R             0             0                0           0
+Itahari LAN.Itahari T             0             0                0           0
+Itahari LAN.Itahari A             0             0                0           0
+
+Edinburgh LAN.Edinbur             0             0                0           0
+Edinburgh LAN.Edinbur             0             0                0           0
+Butwal LAN.Butwal Rou             0             0                0           0
+Butwal LAN.Butwal ATM             0             0                0           0
+
+Butwal LAN.Butwal Tel             0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE     9
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: INPUT BUFFER USE BY PORT                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODE:                        PACKETS           BUFFER USE (P=PKTS, B=BYTES) 
+  CONNECTED LINKS      ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM  P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari LAN.Itahari Router:
+  WAN Cloud                 3181        0          0          1          40 B
+  Itahari Link             15776        0          0          3         140 B
+Itahari LAN.Itahari Teller Machine:
+  Itahari Link                 5        0          0          0          40 B
+Itahari LAN.Itahari ATM 1-30:
+  Itahari Link              3176        0          0          1          80 B
+
+Edinburgh LAN.Edinburgh Server:
+  Edinburgh Link            6365        0          0          0         140 B
+Edinburgh LAN.Edinburgh Router:
+  Edinburgh Link            6365        0          0          1          40 B
+  WAN Cloud                 6365        0          0          2         140 B
+Butwal LAN.Butwal Router:
+  Butwal Link              15871        0          0          3         140 B
+  WAN Cloud                 3184        0          0          1          40 B
+Butwal LAN.Butwal ATM 1-30:
+  Butwal Link               3178        0          0          1          40 B
+
+Butwal LAN.Butwal Teller Machine:
+  Butwal Link                  6        0          0          0          40 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    10
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: OUTPUT BUFFER USE BY PORT                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+NODE:                        PACKETS           BUFFER USE (P=PKTS, B=BYTES) 
+  CONNECTED LINKS      ACCEPTED  BLOCKED   AVERAGE    STD DEV     MAXIMUM  P/B
+______________________ ________  _______  __________  _________  _________ ___
+
+Itahari LAN.Itahari Router:
+  WAN Cloud                15776        0      88480      53314      176724 B
+  Itahari Link              3181        0          0          2          40 B
+Itahari LAN.Itahari Teller Machine:
+  Itahari Link                15        0          0          0         129 B
+Itahari LAN.Itahari ATM 1-30:
+  Itahari Link             15761        0          0          2         259 B
+
+Edinburgh LAN.Edinburgh Server:
+  Edinburgh Link            6365        0          0          2          80 B
+Edinburgh LAN.Edinburgh Router:
+  Edinburgh Link            6365        0          0          6         140 B
+  WAN Cloud                 6365        0         20         33         280 B
+Butwal LAN.Butwal Router:
+  Butwal Link               3184        0          0          2          40 B
+  WAN Cloud                15871        0      88802      52629      175130 B
+Butwal LAN.Butwal ATM 1-30:
+  Butwal Link              15844        0          0          2         291 B
+
+Butwal LAN.Butwal Teller Machine:
+  Butwal Link                 27        0          0          0         140 B
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    11
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: INPUT PORT BUFFER POLICY                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+NODE:                    PACKETS        PACKETS          PACKETS     PACKETS
+  CONNECTED LINKS        PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari LAN.Itahari Router:
+  WAN Cloud                       0             0                0           0
+  Itahari Link                    0             0                0           0
+Itahari LAN.Itahari Teller Machine:
+  Itahari Link                    0             0                0           0
+Itahari LAN.Itahari ATM 1-30:
+  Itahari Link                    0             0                0           0
+
+Edinburgh LAN.Edinburgh Server:
+  Edinburgh Link                  0             0                0           0
+Edinburgh LAN.Edinburgh Router:
+  Edinburgh Link                  0             0                0           0
+  WAN Cloud                       0             0                0           0
+Butwal LAN.Butwal Router:
+  Butwal Link                     0             0                0           0
+  WAN Cloud                       0             0                0           0
+Butwal LAN.Butwal ATM 1-30:
+  Butwal Link                     0             0                0           0
+
+Butwal LAN.Butwal Teller Machine:
+  Butwal Link                     0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    12
+
+                             19031315 Ishan Gurung                              
+
+                        NODES: OUTPUT PORT BUFFER POLICY                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+NODE:                    PACKETS        PACKETS          PACKETS     PACKETS
+  CONNECTED LINKS        PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   _________
+
+Itahari LAN.Itahari Router:
+  WAN Cloud                       0             0                0           0
+  Itahari Link                    0             0                0           0
+Itahari LAN.Itahari Teller Machine:
+  Itahari Link                    0             0                0           0
+Itahari LAN.Itahari ATM 1-30:
+  Itahari Link                    0             0                0           0
+
+Edinburgh LAN.Edinburgh Server:
+  Edinburgh Link                  0             0                0           0
+Edinburgh LAN.Edinburgh Router:
+  Edinburgh Link                  0             0                0           0
+  WAN Cloud                       0             0                0           0
+Butwal LAN.Butwal Router:
+  Butwal Link                     0             0                0           0
+  WAN Cloud                       0             0                0           0
+Butwal LAN.Butwal ATM 1-30:
+  Butwal Link                     0             0                0           0
+
+Butwal LAN.Butwal Teller Machine:
+  Butwal Link                     0             0                0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    13
+
+                             19031315 Ishan Gurung                              
+
+                           LINKS: CHANNEL UTILIZATION                           
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                             FRAMES           TRANSMISSION DELAY (MS)       %
+LINK                   DELIVERED RST/ERR  AVERAGE    STD DEV    MAXIMUM   UTIL
+_____________________  _________ ______  _________  _________  _________  _____
+
+Itahari LAN.Itahari Li     18957      0      0.073      0.028      0.691 2.2473
+Edinburgh LAN.Edinburg     12730      0      0.038      0.014      0.082 0.8029
+Butwal LAN.Butwal Link     19055      0      0.073      0.028      0.691 2.2553
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    14
+
+                             19031315 Ishan Gurung                              
+
+                       LINKS: UTILIZATION BY APPLICATION                        
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+LINK /               PACKETS     PKTS/       BYTES       KBPS        %     UTIL
+  APP TYPES         DELIVERED     SEC      DELIVERED   DELIVERED   BYTES    (%)
+__________________  _________  _________  __________  __________  ______  _____
+
+Itahari LAN.Itahari Li
+  Other                 18957    315.950     1087665     145.022 100.000   2.25
+Edinburgh LAN.Edinburg
+  Other                 12730    212.167      657934      87.725 100.000   0.80
+Butwal LAN.Butwal Link
+  Other                 19055    317.583     1090494     145.399 100.000   2.26
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    15
+
+                             19031315 Ishan Gurung                              
+
+                         LINKS: UTILIZATION BY PROTOCOL                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+LINK /               PACKETS     PKTS/       BYTES       KBPS        %     UTIL
+  PROTOCOLS         DELIVERED     SEC      DELIVERED   DELIVERED   BYTES    (%)
+__________________  _________  _________  __________  __________  ______  _____
+
+Itahari LAN.Itahari Li
+  TCP/IP - Microso      18957    315.950     1087665     145.022 100.000   2.25
+Edinburgh LAN.Edinburg
+  TCP/IP - Microso      12730    212.167      657934      87.725 100.000   0.80
+Butwal LAN.Butwal Link
+  TCP/IP - Microso      19055    317.583     1090494     145.399 100.000   2.26
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    16
+
+                             19031315 Ishan Gurung                              
+
+                               LINKS: FRAME SIZE                                
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                          FRAME SIZES (BYTES)       
+LINK                     COUNT       AVERAGE      STD DEV      MAXIMUM
+_____________________   _________  ___________  ___________  ___________
+
+Itahari LAN.Itahari Li      18957       88.911       31.538      170.000
+Edinburgh LAN.Edinburg      12730       75.684       27.794      164.000
+Butwal LAN.Butwal Link      19055       88.767       31.370      170.000
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    17
+
+                             19031315 Ishan Gurung                              
+
+                             LINKS: COLLISION STATS                             
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+
+LINK NAME                  Itahari      Butwal  
+                          LAN.Itahar  LAN.Butwal
+                            i Link       Link   
+
+ACCESS PROTOCOL              CSMA/CD     CSMA/CD
+
+COLLISION EPISODES                62          53
+
+COLLIDED FRAMES                  124         106
+
+NBR OF TRIES TO RESOLVE
+  AVERAGE                       1.46        1.38
+  STANDARD DEVIATION            0.60        0.58
+  MAXIMUM                          3           3
+
+NBR OF DEFERRALS                 257         258
+
+DEFERRAL DELAY  (MS)
+  AVERAGE                       0.04        0.03
+  STANDARD DEVIATION            0.03        0.03
+  MAXIMUM                       0.12        0.13
+
+DEFERRAL QUEUE SIZE  (FRAMES)
+  AVERAGE                       0.00        0.00
+  STANDARD DEVIATION            0.01        0.01
+  MAXIMUM                          2           1
+
+MULTIPLE COLLISION EPISODES
+  NBR EPISODES                     0           0
+  AVG PER EPISODE               0.00        0.00
+  MAX PER EPISODE                  0           0
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    18
+
+                             19031315 Ishan Gurung                              
+
+                            LINKS: TOKEN RING STATS                             
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                            TOKEN              NODES     ACTIVE       FDDI
+                       ROTATION TIME (MS)     ACTIVE     TIME (MS)  RT/TTRT>2
+LINK                   AVERAGE    STD DEV       AVG        AVG        COUNT
+_____________________  _________  _________  _________  _________    ________
+
+*********************      0.011      0.015      0.008      0.038      N/A   
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    19
+
+                             19031315 Ishan Gurung                              
+
+                              LINKS: SESSION LEVEL                              
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                                  SESSIONS IN PROGRESS
+LINK                        AVERAGE       STD DEV    MAXIMUM
+______________________   ___________   ___________   ________
+
+Itahari LAN.Itahari Li          0.00          0.00          0
+Edinburgh LAN.Edinburg          0.00          0.00          0
+Butwal LAN.Butwal Link          0.00          0.00          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    20
+
+                             19031315 Ishan Gurung                              
+
+                         WAN CLOUDS: FRAME DELAY BY VC                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                      FRAME DELAY (MS)               BURST SIZE (kb)
+  VC                      AVG      STD      MAX           AVG           MAX
+______________________  _______  _______  _______    ____________  ____________
+
+WAN Cloud
+  Itahari-Edinburgh        1164      697     2520             158           320
+  Edinburgh Itahari          17        0       17             111           243
+  Edinburgh-Butwal           17        0       17             111           251
+  Butwal-Edinburgh         1169      701     2522             160           320
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    21
+
+                             19031315 Ishan Gurung                              
+
+                         WAN CLOUDS: FRAME COUNTS BY VC                         
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                                    FRAMES / KILOBITS
+  VC:  FRAMES                    ACCEPTED                     DROPPED
+       KILOBITS            NORMAL          DE           NORMAL          DE
+______________________  ____________  ____________   ____________  ____________
+
+WAN Cloud               (TOTAL KILOBITS TRANSMITTED =         5263 )
+  Itahari-Edinburg Frm          1614          1567              0          9463
+                    kb           803           811              0          4656
+  Edinburgh Itahar Frm          2304           877              0             0
+                    kb           737           281              0             0
+  Edinburgh-Butwal Frm          2304           880              0             0
+                    kb           737           282              0             0
+  Butwal-Edinburgh Frm          1597          1587              0          9565
+                    kb           805           808              0          4692
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    22
+
+                             19031315 Ishan Gurung                              
+
+                         WAN CLOUDS: ACCESS LINK STATS                          
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                            FRAMES            BUFFER (BYTES)       % UTIL
+  ACCESS LINK  (ENTRY)     ACCEPTED    DROPPED    MAX     AVG     STD          
+               (EXIT)                                                          
+________________________  __________  _________  ______  ______  ______  ______
+
+WAN Cloud
+  Edinburgh Access Entry        6365          0    N/A     N/A     N/A    34.48
+                    Exit        6365          0   33930    7809   10305   49.97
+  Itahari Access   Entry        3181       9463    N/A     N/A     N/A    97.44
+                    Exit        3181          0      80       7      15   17.23
+  Butwal Access    Entry        3184       9565    N/A     N/A     N/A    98.03
+                    Exit        3184          0      80       7      15   17.25
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    23
+
+                             19031315 Ishan Gurung                              
+
+                     WAN CLOUDS: CLOUD ACCESS BUFFER POLICY                     
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+CLOUD:                          FRAMES  
+  ACCESS LINK               EPD         PPD    
+________________________  __________  _________
+
+WAN Cloud
+  Edinburgh Access                 0          0
+  Itahari Access                   0          0
+  Butwal Access                    0          0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    24
+
+                             19031315 Ishan Gurung                              
+
+                       WAN CLOUDS: CLOUD VC BUFFER POLICY                       
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+CLOUD:                    FRAMES         FRAMES           FRAMES      FRAMES
+  ACCESS LINK            PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   ________
+
+WAN Cloud
+Edinburgh Access                 0              0               0           0
+Itahari Access                   0              0               0           0
+Butwal Access                    0              0               0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    25
+
+                             19031315 Ishan Gurung                              
+
+                              WAN CLOUDS: EPD/PPD                               
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+                               PREEMPTION                     THRESHOLD    
+CLOUD:                    FRAMES         FRAMES           FRAMES      FRAMES
+  ACCESS LINK            PREEMPTING     PREEMPTED        EXCEEDED    REJECTED
+________________________ __________     _________        _________   ________
+
+WAN Cloud
+Edinburgh Access                 0              0               0           0
+Itahari Access                   0              0               0           0
+Butwal Access                    0              0               0           0
+
+
+Compuware COMNET III  Release 2.5.2.814  Thu Dec 24 21:41:32 2020   PAGE    26
+
+                             19031315 Ishan Gurung                              
+
+                 MESSAGE + RESPONSE SOURCES: MESSAGE DELIVERED                  
+
+                     REPLICATION 1 FROM 0.0 TO 60.0 SECONDS                     
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Itahari LAN.Itahari Teller Machine / src Itahari Teller Message Sourse:
+  Edinburgh LAN.Edinbu          1     409.480 MS      0.000 MS    409.480 MS
+Itahari LAN.Itahari ATM 1-30 / src Itahari ATM Message Source:
+  Edinburgh LAN.Edinbu        983   16704.146 MS  10694.963 MS  49809.466 MS
+Edinburgh LAN.Edinburgh Server / src Edinburgh Response Source:
+  ECHO                          0       0.000 MS      0.000 MS      0.000 MS
+Butwal LAN.Butwal ATM 1-30 / src Butwal ATM Message Source:
+  Edinburgh LAN.Edinbu        996   17168.969 MS  11101.313 MS  50581.155 MS
+Butwal LAN.Butwal Teller Machine / src Butwal Teller Message Source:
+  Edinburgh LAN.Edinbu          2   27620.207 MS   3046.105 MS  30666.312 MS
+
+---------------------------------MODEL PLAYBACK---------------------------------
+
+Areas
+  WAN Clouds
+    WAN Cloud
+      Comments = (none)
+      Icon Name = cloud2.icn
+      Icon Scale =              1.0
+      Icon X =          12500.0
+      Icon Y =          28000.0
+      Parent Name = 19031315 Ishan Gurung
+      Parm
+        WAN Cloud Parameter: Frame Relay
+          Comments = (none)
+      Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+  Subnets
+    Butwal LAN
+      Background B =            100.0
+      Background G =            100.0
+      Background R =            100.0
+      Call Routing Protocol
+        Minimum Hop
+      Icon X Coord =          17500.0
+      Icon Y Coord =          23000.0
+      Packet Routing Protocol
+        RIP Minimum Hop
+      Parent = 19031315 Ishan Gurung
+      Zoomscale =              0.4467
+    Edinburgh LAN
+      Background B =            100.0
+      Background G =            100.0
+      Background R =            100.0
+      Call Routing Protocol
+        Minimum Hop
+      Icon X Coord =          12500.0
+      Icon Y Coord =          23000.0
+      Packet Routing Protocol
+        RIP Minimum Hop
+      Parent = 19031315 Ishan Gurung
+      Zoom Y =          10109.0
+      Zoomscale =              0.4467
+    Itahari LAN
+      Background B =            100.0
+      Background G =            100.0
+      Background R =            100.0
+      Call Routing Protocol
+        Minimum Hop
+      Icon X Coord =           7000.0
+      Icon Y Coord =          22500.0
+      Packet Routing Protocol
+        RIP Minimum Hop
+      Parent = 19031315 Ishan Gurung
+      Zoomscale =              0.4467
+  Backbones
+    Backbone
+      Animate = TRUE
+      Application Types
+        Other
+      Background B =            100.0
+      Background G =            100.0
+      Background R =            100.0
+      Call File Scale =              1.0
+      Call Routing Protocol
+        Minimum Hop
+      Msg File Scale =              1.0
+      Number Of Reps = 1
+      Packet Routing Protocol
+        RIP Minimum Hop
+      Postrun Reports (all on) = Channel Utilization, Utilization by Application, Utilization by Protocol, Frame Size, Collision Stats, Token Ring Stats, Link Connection Stats, WAN Link Statistics, Session Level, Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy, Message Delivered, Blocked Call Counts, Disconnected Call Counts, Preempted Call Counts, Message Delivered, Setup Counts, Message Delivered, Message Delivered, Setup Counts, Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD, Message Delivered, Message Delivered, Setup Counts
+      Rep Length =             60.0
+      Session File Scale =              1.0
+      Show Clock = TRUE
+      Snapshot Reports (all on) = Disk Error(a), Variable Error(a)
+      Step Size =            500.0
+      Trace File Name = trace.xls
+      Trace To Disk = TRUE
+      Zoom Y =          -18130.0
+Layouts
+  Nodes
+    Computer Groups
+      Butwal LAN.Butwal ATM 1-30
+        Comments = (none)
+        Icon Name = atm.icn
+        Icon Scale =              1.0
+        Icon X Coord =           9500.0
+        Icon Y Coord =          17500.0
+        Parent = Butwal LAN
+        Parms
+          Computer Group Parameter: ATM Group
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Quantity = 30
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = (none)
+        State = Up
+        Trigger List Type = Simple
+      Itahari LAN.Itahari ATM 1-30
+        Comments = (none)
+        Icon Name = atm.icn
+        Icon Scale =              1.0
+        Icon X Coord =          10500.0
+        Icon Y Coord =          14500.0
+        Parent = Itahari LAN
+        Parms
+          Computer Group Parameter: ATM Group
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Quantity = 30
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = (none)
+        State = Up
+        Trigger List Type = Simple
+    Processing Nodes
+      Butwal LAN.Butwal Teller Machine
+        Comments = (none)
+        Icon Name = atm.icn
+        Icon Scale =              1.0
+        Icon X Coord =          19000.0
+        Icon Y Coord =          17500.0
+        Parent = Butwal LAN
+        Parms
+          Processing Node Parameter: DEFAULT
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : (none)
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors
+        State = Up
+        Trigger List Type = Simple
+      Edinburgh LAN.Edinburgh Server
+        Comments = (none)
+        Icon Name = node.icn
+        Icon Scale =              1.0
+        Icon X Coord =          13500.0
+        Icon Y Coord =          17500.0
+        Parent = Edinburgh LAN
+        Parms
+          Processing Node Parameter: DEFAULT
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : (none)
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors
+        State = Up
+        Trigger List Type = Simple
+      Itahari LAN.Itahari Teller Machine
+        Comments = (none)
+        Icon Name = atm.icn
+        Icon Scale =              1.0
+        Icon X Coord =          17000.0
+        Icon Y Coord =          14500.0
+        Parent = Itahari LAN
+        Parms
+          Processing Node Parameter: DEFAULT
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : (none)
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors
+        State = Up
+        Trigger List Type = Simple
+    Routers
+      Butwal LAN.Butwal Router
+        Comments = (none)
+        Icon Name = router.icn
+        Icon Scale =              1.0
+        Icon X Coord =          15000.0
+        Icon Y Coord =           7500.0
+        Parent = Butwal LAN
+        Parms
+          Network Device Parameter: Cisco 7000/7010 sp
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : 0.009090909
+              IP : 0.009090909
+              AppleTalk : 0.042274361
+              Bridge : 0.009090909
+              DECnet : 0.050306872
+              IPX : 0.009090909
+              OSI : 0.075993617
+              VIP : 0.044412862
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors, Busy Buses
+        State = Up
+        Trigger List Type = Simple
+      Edinburgh LAN.Edinburgh Router
+        Comments = (none)
+        Icon Name = router.icn
+        Icon Scale =              1.0
+        Icon X Coord =          19000.0
+        Icon Y Coord =          11500.0
+        Parent = Edinburgh LAN
+        Parms
+          Network Device Parameter: Cisco 7000/7010 sp
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : 0.009090909
+              IP : 0.009090909
+              AppleTalk : 0.042274361
+              Bridge : 0.009090909
+              DECnet : 0.050306872
+              IPX : 0.009090909
+              OSI : 0.075993617
+              VIP : 0.044412862
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors, Busy Buses
+        State = Up
+        Trigger List Type = Simple
+      Itahari LAN.Itahari Router
+        Comments = (none)
+        Icon Name = router.icn
+        Icon Scale =              1.0
+        Icon X Coord =          14000.0
+        Icon Y Coord =          25500.0
+        Parent = Itahari LAN
+        Parms
+          Network Device Parameter: Cisco 7000/7010 sp
+            Comments = (none)
+            Files
+              GENERAL STORAGE,                   0 bytes
+            Protocol Processings
+              DEFAULT : 0.009090909
+              IP : 0.009090909
+              AppleTalk : 0.042274361
+              Bridge : 0.009090909
+              DECnet : 0.050306872
+              IPX : 0.009090909
+              OSI : 0.075993617
+              VIP : 0.044412862
+        Postrun Reports = Node Full Utilization, Processor + Disk Utilization, Received Message Counts, Session Level, Input Buffer Totals, Output Buffer Totals, Input Node Buffer Policy, Output Node Buffer Policy, Input Buffer Use by Port, Output Buffer Use by Port, Input Port Buffer Policy, Output Port Buffer Policy
+        Snapshot Reports = Disk Error(a), Variable Error(a)
+        Statistics Request = Used Bytes Level, Busy Processors, Busy Buses
+        State = Up
+        Trigger List Type = Simple
+  Sources
+    Response Sources
+      Edinburgh Response Source @ Edinburgh LAN.Edinburgh Server
+        Bytes Or Cycles = Uni(40.0,80.0,2)
+        Comments = (none)
+        Icon X Coord =          19000.0
+        Icon Y Coord =          17500.0
+        Packetizing Delay = 10.0
+        Parent = Edinburgh LAN
+        Protocol
+          TCP/IP - Microsoft V1.0
+            Comments = (none)
+            Flow Control (enhanced)
+              Enhanced Sliding Window Parameter: DEFAULT
+        Received Messages
+          *, 1 required
+          Itahari ATM Message Sourse, 1 required
+          Itahari Teller Message Sourse, 1 required
+          Butwal Teller Message Source, 1 required
+          Butwal ATM Message Source, 1 required
+        Routing Class
+          EIGRP
+        Statistics Request = (none)
+    Message Sources
+      Butwal ATM Message Source @ Butwal LAN.Butwal ATM 1-30
+        Bytes Or Cycles = Uni(50.0,100.0,2)
+        Comments = (none)
+        Destinations
+          Edinburgh LAN.Edinburgh Server
+        Destination Type = Random list
+        IAT = Exp(0.5,2)
+        Icon X Coord =           4000.0
+        Icon Y Coord =          17500.0
+        Packetizing Delay = 10.0
+        Parent = Butwal LAN
+        Postrun Reports = Message Delivered
+        Protocol
+          TCP/IP - Microsoft V1.0
+            Comments = (none)
+            Flow Control (enhanced)
+              Enhanced Sliding Window Parameter: DEFAULT
+        Routing Class
+          EIGRP
+        Statistics Request = (none)
+      Butwal Teller Message Source @ Butwal LAN.Butwal Teller Machine
+        Bytes Or Cycles = Uni(40.0,100.0)
+        Comments = (none)
+        Destinations
+          Edinburgh LAN.Edinburgh Server
+        Destination Type = Random list
+        Icon X Coord =          26000.0
+        Icon Y Coord =          17500.0
+        Packetizing Delay = 10.0
+        Parent = Butwal LAN
+        Postrun Reports = Message Delivered
+        Protocol
+          TCP/IP - Microsoft V1.0
+            Comments = (none)
+            Flow Control (enhanced)
+              Enhanced Sliding Window Parameter: DEFAULT
+        Routing Class
+          EIGRP
+        Statistics Request = (none)
+      Itahari ATM Message Source @ Itahari LAN.Itahari ATM 1-30
+        Bytes Or Cycles = Uni(50.0,100.0,2)
+        Comments = (none)
+        Destinations
+          Edinburgh LAN.Edinburgh Server
+        Destination Type = Random list
+        IAT = Exp(0.5,2)
+        Icon X Coord =           4000.0
+        Icon Y Coord =          14500.0
+        Packetizing Delay = 10.0
+        Parent = Itahari LAN
+        Postrun Reports = Message Delivered
+        Protocol
+          TCP/IP - Microsoft V1.0
+            Comments = (none)
+            Flow Control (enhanced)
+              Enhanced Sliding Window Parameter: DEFAULT
+        Routing Class
+          EIGRP
+        Statistics Request = (none)
+      Itahari Teller Message Sourse @ Itahari LAN.Itahari Teller Machine
+        Bytes Or Cycles = Uni(40.0,100.0)
+        Comments = (none)
+        Destinations
+          Edinburgh LAN.Edinburgh Server
+        Destination Type = Random list
+        Icon X Coord =          24500.0
+        Icon Y Coord =          14500.0
+        Packetizing Delay = 10.0
+        Parent = Itahari LAN
+        Postrun Reports = Message Delivered
+        Protocol
+          TCP/IP - Microsoft V1.0
+            Comments = (none)
+            Flow Control (enhanced)
+              Enhanced Sliding Window Parameter: DEFAULT
+        Routing Class
+          EIGRP
+        Statistics Request = (none)
+  Links
+    Token Passings
+      Edinburgh LAN.Edinburgh Link
+        Comments = (none)
+        Icon Name = token.icn
+        Icon Scale =              1.0
+        Icon X Coord =          13500.0
+        Icon Y Coord =          11500.0
+        Parent = Edinburgh LAN
+        Parms
+          Token-Passing Parameter: 802.5 16 Mbps
+            Comments = (none)
+        Postrun Reports = Channel Utilization, Utilization by Application, Utilization by Protocol, Frame Size, Collision Stats, Token Ring Stats, Link Connection Stats, WAN Link Statistics, Session Level
+        Snapshot Reports = (none)
+        Specifics, Link
+          --
+            Number of bits correctable = 0
+            Propagation Delay = (none)
+            Frame Error Rate = (none)
+            Use Bit Error Rate = FALSE
+            End = (none)
+        Statistics Request = Node Activity Duration, Active Node Count, Token Rotation Time, Utilization, Transmission Delay, Frame Size, Sessions In-Progress
+        State = Up
+        Trigger List Type = Simple
+    CSMA/CDs
+      Butwal LAN.Butwal Link
+        Comments = (none)
+        Icon Name = csma.icn
+        Icon Scale =              1.0
+        Icon X Coord =          15000.0
+        Icon Y Coord =          12000.0
+        Parent = Butwal LAN
+        Parms
+          CSMA/CD Parameter: 802.3 CSMA/CD 10BASET
+        Postrun Reports = Channel Utilization, Utilization by Application, Utilization by Protocol, Frame Size, Collision Stats, Token Ring Stats, Link Connection Stats, WAN Link Statistics, Session Level
+        Snapshot Reports = (none)
+        Specifics, Link with Control Channels
+          --
+            Control Node = (none)
+            End = (none)
+        Specifics, Link
+          --
+            Number of bits correctable = 0
+            Propagation Delay = (none)
+            Frame Error Rate = (none)
+            Use Bit Error Rate = FALSE
+            End = (none)
+        Statistics Request = Contention Channel Utilization, Control Channel Utilization, Contention Channel Transmission Delay, Control Channel Transmission Delay, Deferral Delay, Deferral Queue Size, Multiple Collision Episodes, Collisions Per Collided Frame, Contention Channel Frame Size, Control Channel Frame Size, Sessions In-Progress
+        State = Up
+        Trigger List Type = Simple
+      Itahari LAN.Itahari Link
+        Comments = (none)
+        Icon Name = csma.icn
+        Icon Scale =              1.0
+        Icon X Coord =          14000.0
+        Icon Y Coord =          19500.0
+        Parent = Itahari LAN
+        Parms
+          CSMA/CD Parameter: 802.3 CSMA/CD 10BASET
+        Postrun Reports = Channel Utilization, Utilization by Application, Utilization by Protocol, Frame Size, Collision Stats, Token Ring Stats, Link Connection Stats, WAN Link Statistics, Session Level
+        Snapshot Reports = (none)
+        Specifics, Link with Control Channels
+          --
+            Control Node = (none)
+            End = (none)
+        Specifics, Link
+          --
+            Number of bits correctable = 0
+            Propagation Delay = (none)
+            Frame Error Rate = (none)
+            Use Bit Error Rate = FALSE
+            End = (none)
+        Statistics Request = Contention Channel Utilization, Control Channel Utilization, Contention Channel Transmission Delay, Control Channel Transmission Delay, Deferral Delay, Deferral Queue Size, Multiple Collision Episodes, Collisions Per Collided Frame, Contention Channel Frame Size, Control Channel Frame Size, Sessions In-Progress
+        State = Up
+        Trigger List Type = Simple
+    Cloud Access Links
+      WAN Cloud.Butwal Access
+        Icon Name = circuit.icn
+        Icon Scale =              1.0
+        Icon X =          26000.0
+        Icon Y =          16500.0
+        Parent Name = WAN Cloud
+        Parms
+          Cloud Access Parameter: 128 kbps
+            Egress Buffer Policy
+              Default Parameter: DEFAULT
+        Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+        Statistics Request = Exit Buffer Size, Entry Link Level, Exit Link Level
+      WAN Cloud.Edinburgh Access
+        Icon Name = circuit.icn
+        Icon Scale =              1.0
+        Icon X =          14500.0
+        Icon Y =          16500.0
+        Parent Name = WAN Cloud
+        Parms
+          Cloud Access Parameter: 128 kbps
+            Egress Buffer Policy
+              Default Parameter: DEFAULT
+        Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+        Statistics Request = Exit Buffer Size, Entry Link Level, Exit Link Level
+      WAN Cloud.Itahari Access
+        Icon Name = circuit.icn
+        Icon Scale =              1.0
+        Icon X =           3000.0
+        Icon Y =          17000.0
+        Parent Name = WAN Cloud
+        Parms
+          Cloud Access Parameter: 128 kbps
+            Egress Buffer Policy
+              Default Parameter: DEFAULT
+        Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+        Statistics Request = Exit Buffer Size, Entry Link Level, Exit Link Level
+  Cloud VCs
+    Butwal-Edinburgh
+      Icon Name = cloudvc.icn
+      Icon Scale =              1.0
+      Icon X =          20000.0
+      Icon Y =          13000.0
+      Parent Name = WAN Cloud
+      Parms
+        Cloud VC Parameter: 16 kbps CIR
+      Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+      Statistics Request = (none)
+    Edinburgh Itahari
+      Icon Name = cloudvc.icn
+      Icon Scale =              1.0
+      Icon X =           8000.0
+      Icon Y =          13500.0
+      Parent Name = WAN Cloud
+      Parms
+        Cloud VC Parameter: 16 kbps CIR
+      Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+      Statistics Request = (none)
+    Edinburgh-Butwal
+      Icon Name = cloudvc.icn
+      Icon Scale =              1.0
+      Icon X =          20000.0
+      Icon Y =          20000.0
+      Parent Name = WAN Cloud
+      Parms
+        Cloud VC Parameter: 16 kbps CIR
+      Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+      Statistics Request = (none)
+    Itahari-Edinburgh
+      Icon Name = cloudvc.icn
+      Icon Scale =              1.0
+      Icon X =           8500.0
+      Icon Y =          19500.0
+      Parent Name = WAN Cloud
+      Parms
+        Cloud VC Parameter: 16 kbps CIR
+      Postrun Reports = Frame Delay by VC, Frame Counts by VC, Access Link Stats, Cloud Access Buffer Policy, Cloud VC Buffer Policy, EPD/PPD
+      Statistics Request = (none)
+  Access Points
+    Cloud Access Points
+      Access into WAN Cloud connecting to WAN Cloud
+        Hidden Name = Pad2
+        Owner = WAN Cloud
+        Percentage =             51.88147
+      Access into WAN Cloud connecting to WAN Cloud (2)
+        Gravity = Bottom
+        Hidden Name = Pad3
+        Owner = WAN Cloud
+        Percentage =             44.25184
+      Access into WAN Cloud connecting to WAN Cloud (3)
+        Gravity = Right
+        Hidden Name = Pad4
+        Owner = WAN Cloud
+        Percentage =             49.9618
+    Subnet Access Points
+      Access into Butwal LAN connecting Butwal LAN.Butwal Router and WAN Cloud
+        Gravity = Bottom
+        Hidden Name = Pad6
+        Owner = Butwal LAN
+        Percentage =             45.77776
+      Access into Edinburgh LAN connecting Edinburgh LAN.Edinburgh Router and WAN Cloud
+        Gravity = Right
+        Hidden Name = Pad5
+        Owner = Edinburgh LAN
+        Percentage =             51.88147
+      Access into Itahari LAN connecting Itahari LAN.Itahari Router and WAN Cloud
+        Gravity = Top
+        Hidden Name = Pad1
+        Owner = Itahari LAN
+        Percentage =             42.72591
+Arcs
+  Source Arcs
+    Between Butwal ATM Message Source @ Butwal LAN.Butwal ATM 1-30 and Butwal LAN.Butwal ATM 1-30
+      Hidden Name = Arc25
+      Joints
+        (1 of 2) =           4000.5,          17500.0
+        (2 of 2) =           9500.5,          17499.5
+      Node = Butwal LAN.Butwal ATM 1-30
+      Parent = Butwal LAN
+      Source = Butwal ATM Message Source @ Butwal LAN.Butwal ATM 1-30
+    Between Butwal Teller Message Source @ Butwal LAN.Butwal Teller Machine and Butwal LAN.Butwal Teller Machine
+      Hidden Name = Arc28
+      Joints
+        (1 of 2) =          26000.5,          17500.0
+        (2 of 2) =          19000.5,          17499.5
+      Node = Butwal LAN.Butwal Teller Machine
+      Parent = Butwal LAN
+      Source = Butwal Teller Message Source @ Butwal LAN.Butwal Teller Machine
+    Between Edinburgh Response Source @ Edinburgh LAN.Edinburgh Server and Edinburgh LAN.Edinburgh Server
+      Hidden Name = Arc21
+      Joints
+        (1 of 2) =          19000.0,          17500.5
+        (2 of 2) =          13500.5,          17500.5
+      Node = Edinburgh LAN.Edinburgh Server
+      Parent = Edinburgh LAN
+      Source = Edinburgh Response Source @ Edinburgh LAN.Edinburgh Server
+    Between Itahari ATM Message Source @ Itahari LAN.Itahari ATM 1-30 and Itahari LAN.Itahari ATM 1-30
+      Force Straight Lines = TRUE
+      Hidden Name = Arc19
+      Joints
+        (1 of 4) =           4000.0,          14500.5
+        (2 of 4) =           7750.0,          14500.5
+        (3 of 4) =           7750.0,          14500.5
+        (4 of 4) =          10500.5,          14500.5
+      Node = Itahari LAN.Itahari ATM 1-30
+      Parent = Itahari LAN
+      Source = Itahari ATM Message Source @ Itahari LAN.Itahari ATM 1-30
+    Between Itahari Teller Message Sourse @ Itahari LAN.Itahari Teller Machine and Itahari LAN.Itahari Teller Machine
+      Hidden Name = Arc20
+      Joints
+        (1 of 2) =          24500.0,          14500.5
+        (2 of 2) =          17000.5,          14500.5
+      Node = Itahari LAN.Itahari Teller Machine
+      Parent = Itahari LAN
+      Source = Itahari Teller Message Sourse @ Itahari LAN.Itahari Teller Machine
+  Gateway Arcs
+    Between Butwal LAN.Butwal Router and Butwal LAN
+      Gateway = Access into Butwal LAN connecting Butwal LAN.Butwal Router and WAN Cloud
+      Hidden Name = Arc30
+      Joints
+        (1 of 2) =          15000.0,           7500.5
+        (2 of 2) =          15000.0,           1755.75
+      Node = Butwal LAN.Butwal Router
+      Parent = Butwal LAN
+    Between Edinburgh LAN.Edinburgh Router and Edinburgh LAN
+      Gateway = Access into Edinburgh LAN connecting Edinburgh LAN.Edinburgh Router and WAN Cloud
+      Hidden Name = Arc31
+      Joints
+        (1 of 2) =          19000.5,          11500.5
+        (2 of 2) =          31030.0,          17000.0
+      Node = Edinburgh LAN.Edinburgh Router
+      Parent = Edinburgh LAN
+    Between Itahari LAN.Itahari Router and Itahari LAN
+      Gateway = Access into Itahari LAN connecting Itahari LAN.Itahari Router and WAN Cloud
+      Hidden Name = Arc15
+      Joints
+        (1 of 4) =          14000.5,          25500.5
+        (2 of 4) =          14000.0,          30000.0
+        (3 of 4) =          14000.5,          30500.0
+        (4 of 4) =          14000.0,          30508.75
+      Node = Itahari LAN.Itahari Router
+      Parent = Itahari LAN
+  Cloud Vc Arcs
+    Between Butwal-Edinburgh and WAN Cloud.Edinburgh Access
+      Hidden Name = Arc12
+      Joints
+        (1 of 2) =          20000.5,          13008.5
+        (2 of 2) =          14500.0,          16504.0
+      Parent Name = WAN Cloud
+      Start = Butwal-Edinburgh
+      Stop = WAN Cloud.Edinburgh Access
+    Between Edinburgh Itahari and WAN Cloud.Itahari Access
+      Hidden Name = Arc6
+      Joints
+        (1 of 2) =           8000.5,          13508.5
+        (2 of 2) =           3000.0,          17004.0
+      Parent Name = WAN Cloud
+      Start = Edinburgh Itahari
+      Stop = WAN Cloud.Itahari Access
+    Between Edinburgh-Butwal and WAN Cloud.Butwal Access
+      Hidden Name = Arc10
+      Joints
+        (1 of 2) =          20000.5,          20008.5
+        (2 of 2) =          26000.0,          16504.0
+      Parent Name = WAN Cloud
+      Start = Edinburgh-Butwal
+      Stop = WAN Cloud.Butwal Access
+    Between Itahari-Edinburgh and WAN Cloud.Edinburgh Access
+      Hidden Name = Arc7
+      Joints
+        (1 of 2) =           8500.5,          19508.5
+        (2 of 2) =          14500.0,          16504.0
+      Parent Name = WAN Cloud
+      Start = Itahari-Edinburgh
+      Stop = WAN Cloud.Edinburgh Access
+    Between WAN Cloud.Butwal Access and Butwal-Edinburgh
+      Hidden Name = Arc11
+      Joints
+        (1 of 2) =          26000.0,          16504.0
+        (2 of 2) =          20000.5,          13008.5
+      Parent Name = WAN Cloud
+      Start = WAN Cloud.Butwal Access
+      Stop = Butwal-Edinburgh
+    Between WAN Cloud.Edinburgh Access and Edinburgh Itahari
+      Hidden Name = Arc8
+      Joints
+        (1 of 2) =          14500.0,          16504.0
+        (2 of 2) =           8000.5,          13508.5
+      Parent Name = WAN Cloud
+      Start = WAN Cloud.Edinburgh Access
+      Stop = Edinburgh Itahari
+    Between WAN Cloud.Edinburgh Access and Edinburgh-Butwal
+      Hidden Name = Arc9
+      Joints
+        (1 of 2) =          14500.0,          16504.0
+        (2 of 2) =          20000.5,          20008.5
+      Parent Name = WAN Cloud
+      Start = WAN Cloud.Edinburgh Access
+      Stop = Edinburgh-Butwal
+    Between WAN Cloud.Itahari Access and Itahari-Edinburgh
+      Hidden Name = Arc5
+      Joints
+        (1 of 2) =           3000.0,          17004.0
+        (2 of 2) =           8500.5,          19508.5
+      Parent Name = WAN Cloud
+      Start = WAN Cloud.Itahari Access
+      Stop = Itahari-Edinburgh
+  Port Arcs
+    Between Butwal LAN and WAN Cloud
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc3
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          17445.23093,          22346.0
+        (2 of 2) =          13155.0,          28000.0
+      Link = Access into WAN Cloud connecting to WAN Cloud
+      Node = Access into Butwal LAN connecting Butwal LAN.Butwal Router and WAN Cloud
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = 19031315 Ishan Gurung
+    Between Butwal LAN.Butwal ATM 1-30 and Butwal LAN.Butwal Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Force Straight Lines = TRUE
+      Hidden Name = Arc26
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 4) =           9500.5,          17499.5
+        (2 of 4) =          12750.25,          17499.5
+        (3 of 4) =          12750.25,          12000.0
+        (4 of 4) =          15000.0,          12000.0
+      Link = Butwal LAN.Butwal Link
+      Node = Butwal LAN.Butwal ATM 1-30
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Butwal LAN
+    Between Butwal LAN.Butwal Router and Butwal LAN.Butwal Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc29
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          15000.0,           7500.5
+        (2 of 2) =          15000.0,          12000.0
+      Link = Butwal LAN.Butwal Link
+      Node = Butwal LAN.Butwal Router
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Butwal LAN
+    Between Butwal LAN.Butwal Teller Machine and Butwal LAN.Butwal Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Force Straight Lines = TRUE
+      Hidden Name = Arc27
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 4) =          19000.5,          17499.5
+        (2 of 4) =          17000.5,          17499.5
+        (3 of 4) =          17000.5,          12000.0
+        (4 of 4) =          15000.0,          12000.0
+      Link = Butwal LAN.Butwal Link
+      Node = Butwal LAN.Butwal Teller Machine
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Butwal LAN
+    Between Edinburgh LAN and WAN Cloud
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc32
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          13155.0,          23025.12839
+        (2 of 2) =          12424.69909,          27346.0
+      Link = Access into WAN Cloud connecting to WAN Cloud
+      Node = Access into Edinburgh LAN connecting Edinburgh LAN.Edinburgh Router and WAN Cloud
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = 19031315 Ishan Gurung
+    Between Edinburgh LAN.Edinburgh Router and Edinburgh LAN.Edinburgh Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc23
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          19000.5,          11500.5
+        (2 of 2) =          13500.0,          11500.0
+      Link = Edinburgh LAN.Edinburgh Link
+      Node = Edinburgh LAN.Edinburgh Router
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Edinburgh LAN
+    Between Edinburgh LAN.Edinburgh Server and Edinburgh LAN.Edinburgh Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc22
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          13500.5,          17500.5
+        (2 of 2) =          13500.0,          11500.0
+      Link = Edinburgh LAN.Edinburgh Link
+      Node = Edinburgh LAN.Edinburgh Server
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Edinburgh LAN
+    Between Itahari LAN and WAN Cloud
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc1
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 3) =           6905.2822,          23155.0
+        (2 of 3) =          10000.0,          26000.0
+        (3 of 3) =          11845.0,          28025.12839
+      Link = Access into WAN Cloud connecting to WAN Cloud
+      Node = Access into Itahari LAN connecting Itahari LAN.Itahari Router and WAN Cloud
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = 19031315 Ishan Gurung
+    Between Itahari LAN.Itahari ATM 1-30 and Itahari LAN.Itahari Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Force Straight Lines = TRUE
+      Hidden Name = Arc17
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 4) =          10500.5,          14500.5
+        (2 of 4) =          12250.25,          14500.5
+        (3 of 4) =          12250.25,          19500.0
+        (4 of 4) =          14000.0,          19500.0
+      Link = Itahari LAN.Itahari Link
+      Node = Itahari LAN.Itahari ATM 1-30
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Itahari LAN
+    Between Itahari LAN.Itahari Router and Itahari LAN.Itahari Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Hidden Name = Arc16
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 2) =          14000.5,          25500.5
+        (2 of 2) =          14000.0,          19500.0
+      Link = Itahari LAN.Itahari Link
+      Node = Itahari LAN.Itahari Router
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Itahari LAN
+    Between Itahari LAN.Itahari Teller Machine and Itahari LAN.Itahari Link
+      Comments = (none)
+      Call Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Force Straight Lines = TRUE
+      Hidden Name = Arc18
+      Input Buffer Policy
+        Default Parameter: DEFAULT
+      Joints
+        (1 of 4) =          17000.5,          14500.5
+        (2 of 4) =          15500.5,          14500.5
+        (3 of 4) =          15500.5,          19500.0
+        (4 of 4) =          14000.0,          19500.0
+      Link = Itahari LAN.Itahari Link
+      Node = Itahari LAN.Itahari Teller Machine
+      Output Buffer Policy
+        Default Parameter: DEFAULT
+      Packet Routing Penalty Table
+        One Hop
+          Table
+            (1 of 1) = 0.000000: 1
+      Parent = Itahari LAN
+  Cloud Gateway Arcs
+    Between WAN Cloud and WAN Cloud.Butwal Access
+      Hidden Name = Arc13
+      Joints
+        (1 of 2) =          31030.0,          16370.98396
+        (2 of 2) =          26000.0,          16504.0
+      Parent Name = WAN Cloud
+      Start = Access into WAN Cloud connecting to WAN Cloud
+      Stop = WAN Cloud.Butwal Access
+    Between WAN Cloud and WAN Cloud.Edinburgh Access
+      Hidden Name = Arc14
+      Joints
+        (1 of 2) =          14500.0,           1755.75
+        (2 of 2) =          14500.0,          16504.0
+      Parent Name = WAN Cloud
+      Start = Access into WAN Cloud connecting to WAN Cloud
+      Stop = WAN Cloud.Edinburgh Access
+    Between WAN Cloud and WAN Cloud.Itahari Access
+      Hidden Name = Arc4
+      Joints
+        (1 of 2) =           1737.0,          17000.0
+        (2 of 2) =           3000.0,          17004.0
+      Parent Name = WAN Cloud
+      Start = Access into WAN Cloud connecting to WAN Cloud
+      Stop = WAN Cloud.Itahari Access
+Miscellaneous
+  Call Routing Classes
+    Standard
+  Packet Routing Classes
+    EIGRP
+    Standard

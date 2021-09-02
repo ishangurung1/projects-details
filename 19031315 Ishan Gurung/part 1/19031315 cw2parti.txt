@@ -1,0 +1,385 @@
+ishan@DESKTOP-4S13P0B:~$ cat 19031315cw2part1-Copy
+Script started on 2021-04-06 16:54:08+05:45 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="114" LINES="53"]
+ishan@DESKTOP-4S13P0B:~$ PS1='$PWD>'
+/home/ishan>mkdir -p NBA/{Lakers,Miami,"Chicago Bulls","Brooklyn nets","Dallas Maverick"}
+/home/ishan>tree
+.
+├── 19031315cw2part1
+└── NBA
+    ├── Brooklyn nets
+    ├── Chicago Bulls
+    ├── Dallas Maverick
+    ├── Lakers
+    └── Miami
+
+6 directories, 1 file
+/home/ishan>cd NBA/Miami;pwd;touch file1 file2
+/home/ishan/NBA/Miami
+/home/ishan/NBA/Miami>cd ..;rm -ri Miami;ls
+rm: descend into directory 'Miami'? y
+rm: remove regular empty file 'Miami/file1'? y
+rm: remove regular empty file 'Miami/file2'? y
+rm: remove directory 'Miami'? y
+'Brooklyn nets'  'Chicago Bulls'  'Dallas Maverick'   Lakers 
+
+/home/ishan/NBA>echo -e "Hello! I am big fan of NBA finals. \n 14 < (2+2)"
+Hello! I am big fan of NBA finals.
+ 14 < (2+2)
+/home/ishan/NBA>pwd;cd Lakers;pwd
+/home/ishan/NBA
+/home/ishan/NBA/Lakers
+/home/ishan/NBA/Lakers>pwd;cd;pwd
+/home/ishan/NBA/Lakers
+/home/ishan
+/home/ishan>cd NBA/Lakers;pwd;cd ..;pwd;cd ..;pwd
+/home/ishan/NBA/Lakers
+/home/ishan/NBA
+/home/ishan
+/home/ishan>cd;pwd
+/home/ishan
+/home/ishan>ls
+19031315cw2part1  NBA
+/home/ishan>ls -a
+.  ..  19031315cw2part1  .bash_history  .bash_logout  .bashrc  .local  NBA  .profile
+/home/ishan>ls -al
+total 20
+drwxr-xr-x 1 ishan ishan  512 Apr  6 16:54 .
+drwxr-xr-x 1 root  root   512 Apr  5 19:56 ..
+-rw-r--r-- 1 ishan ishan 2048 Apr  6 16:58 19031315cw2part1
+-rw------- 1 ishan ishan 5414 Apr  6 16:52 .bash_history
+-rw-r--r-- 1 ishan ishan  220 Apr  5 19:56 .bash_logout
+-rw-r--r-- 1 ishan ishan 3564 Apr  6 14:38 .bashrc
+drwxr-xr-x 1 ishan ishan  512 Apr  5 20:25 .local
+drwxr-xr-x 1 ishan ishan  512 Apr  6 16:56 NBA
+-rw-r--r-- 1 ishan ishan  807 Apr  5 19:56 .profile
+/home/ishan>cd;pwd;cd cw2;pwd
+/home/ishan
+bash: cd: cw2: No such file or directory
+/home/ishan
+/home/ishan>ls -R
+.:
+19031315cw2part1  NBA
+
+./NBA:
+'Brooklyn nets'  'Chicago Bulls'  'Dallas Maverick'   Lakers
+
+'./NBA/Brooklyn nets':
+
+'./NBA/Chicago Bulls':
+
+'./NBA/Dallas Maverick':
+
+./NBA/Lakers:
+/home/ishan>cd NBA/Chicago\ Bulls
+/home/ishan/NBA/Chicago Bulls>touch testX testY testZ
+/home/ishan/NBA/Chicago Bulls>cat > testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^C
+/home/ishan/NBA/Chicago Bulls>cat > testY
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^C
+/home/ishan/NBA/Chicago Bulls>cat > testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+^C
+/home/ishan/NBA/Chicago Bulls>cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>cat testY
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>cat testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>cp -p * /home/ishan/NBA/Brooklyn\ nets/
+/home/ishan/NBA/Chicago Bulls>cat testX testY testZ
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>cat testX testY testZ>testResult
+/home/ishan/NBA/Chicago Bulls>cat testResult
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>cat test[XYZ]
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>ls -l
+total 0
+-rw-r--r-- 1 ishan ishan 216 Apr  6 17:01 testResult
+-rw-r--r-- 1 ishan ishan  72 Apr  6 16:59 testX
+-rw-r--r-- 1 ishan ishan  72 Apr  6 17:00 testY
+-rw-r--r-- 1 ishan ishan  72 Apr  6 17:00 testZ
+/home/ishan/NBA/Chicago Bulls>chmod 000 testX
+/home/ishan/NBA/Chicago Bulls>ls -l testX
+---------- 1 ishan ishan 72 Apr  6 16:59 testX
+/home/ishan/NBA/Chicago Bulls>cat testX
+cat: testX: Permission denied
+/home/ishan/NBA/Chicago Bulls>nano testX
+/home/ishan/NBA/Chicago Bulls>chmod u+rw testX
+/home/ishan/NBA/Chicago Bulls>ls -l testX
+-rw------- 1 ishan ishan 72 Apr  6 16:59 testX
+/home/ishan/NBA/Chicago Bulls>cat testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Chicago Bulls>nano testX
+/home/ishan/NBA/Chicago Bulls>cd ..
+/home/ishan/NBA>chmod 000 Chicago\ Bulls
+/home/ishan/NBA>cat /home/ishan/NBA/Chicago\ Bulls/testX
+cat: '/home/ishan/NBA/Chicago Bulls/testX': Permission denied
+/home/ishan/NBA>touch /home/ishan/NBA/Chicago\ Bulls/Newfile
+touch: cannot touch '/home/ishan/NBA/Chicago Bulls/Newfile': Permission denied
+/home/ishan/NBA>ls Chicago\ Bulls/
+ls: cannot open directory 'Chicago Bulls/': Permission denied
+/home/ishan/NBA>chmod u=rwx Chicago\ Bulls
+/home/ishan/NBA>ls -l Chicago\ Bulls
+total 0
+-rw-r--r-- 1 ishan ishan 216 Apr  6 17:01 testResult
+-rw------- 1 ishan ishan  72 Apr  6 16:59 testX
+-rw-r--r-- 1 ishan ishan  72 Apr  6 17:00 testY
+-rw-r--r-- 1 ishan ishan  72 Apr  6 17:00 testZ
+/home/ishan/NBA>cat /home/ishan/NBA/Chicago\ Bulls/testX
+aaabb Aaaaa
+AAAAA
+bbbcc Bbbbb
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA>touch /home/ishan/NBA/Chicago\ Bulls/Newfile
+/home/ishan/NBA>ls Chicago\ Bulls
+Newfile  testResult  testX  testY  testZ
+/home/ishan/NBA>cd Brooklyn\ nets
+/home/ishan/NBA/Brooklyn nets>grep bb testX
+aaabb Aaaaa
+bbbcc Bbbbb
+/home/ishan/NBA/Brooklyn nets>grep -v bb testX
+AAAAA
+BBBBB
+ff-ff Ccccc
+CCCCC
+cccdd Ddddd
+DDDDD
+/home/ishan/NBA/Brooklyn nets>grep -n bb testX
+1:aaabb Aaaaa
+3:bbbcc Bbbbb
+/home/ishan/NBA/Brooklyn nets>grep -l bb *
+testX
+testY
+testZ
+/home/ishan/NBA/Brooklyn nets>grep -i bb *
+testX:aaabb Aaaaa
+testX:bbbcc Bbbbb
+testX:BBBBB
+testY:aaabb Aaaaa
+testY:bbbcc Bbbbb
+testY:BBBBB
+testZ:aaabb Aaaaa
+testZ:bbbcc Bbbbb
+testZ:BBBBB
+/home/ishan/NBA/Brooklyn nets>grep -i BB *
+testX:aaabb Aaaaa
+testX:bbbcc Bbbbb
+testX:BBBBB
+testY:aaabb Aaaaa
+testY:bbbcc Bbbbb
+testY:BBBBB
+testZ:aaabb Aaaaa
+testZ:bbbcc Bbbbb
+testZ:BBBBB
+/home/ishan/NBA/Brooklyn nets>grep -c bb *
+testX:2
+testY:2
+testZ:2
+/home/ishan/NBA/Brooklyn nets>grep '^A' *
+testX:AAAAA
+testY:AAAAA
+testZ:AAAAA
+/home/ishan/NBA/Brooklyn nets>grep -n '^' testX
+1:aaabb Aaaaa
+2:AAAAA
+3:bbbcc Bbbbb
+4:BBBBB
+5:ff-ff Ccccc
+6:CCCCC
+7:cccdd Ddddd
+8:DDDDD
+/home/ishan/NBA/Brooklyn nets>alias lsal='ls -al';alias lsa='ls -a'
+/home/ishan/NBA/Brooklyn nets>alias
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+/home/ishan/NBA/Brooklyn nets>lsal /home/ishan/
+total 32
+drwxr-xr-x 1 ishan ishan   512 Apr  6 16:54 .
+drwxr-xr-x 1 root  root    512 Apr  5 19:56 ..
+-rw-r--r-- 1 ishan ishan 10752 Apr  6 17:08 19031315cw2part1
+-rw------- 1 ishan ishan  5414 Apr  6 16:52 .bash_history
+-rw-r--r-- 1 ishan ishan   220 Apr  5 19:56 .bash_logout
+-rw-r--r-- 1 ishan ishan  3564 Apr  6 14:38 .bashrc
+drwxr-xr-x 1 ishan ishan   512 Apr  5 20:25 .local
+drwxr-xr-x 1 ishan ishan   512 Apr  6 16:56 NBA
+-rw-r--r-- 1 ishan ishan   807 Apr  5 19:56 .profile
+/home/ishan/NBA/Brooklyn nets>lsa /r
+home/ ishan/
+/home/ishan/NBA/Brooklyn nets>lsa /r
+home/ ishan/
+/home/ishan/NBA/Brooklyn nets>lsa /home/ishan/NBA/
+ .   ..  'Brooklyn nets'  'Chicago Bulls'  'Dallas Maverick'   Lakers
+
+/home/ishan/NBA/Brooklyn nets>lsa /home/ishan/
+.  ..  19031315cw2part1  .bash_history  .bash_logout  .bashrc  .local  NBA  .profile
+/home/ishan/NBA/Brooklyn nets>unalias lsal;unalias lsa;alias
+alias ls='ls --color=auto'
+
+/home/ishan>alias
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+/home/ishan>alias noAllf='ls -a | wc -l'
+/home/ishan>alias noAsubsir='ls -aR | wc -l'
+/home/ishan>alias noAcs='ls -aR | grep ^[gtw] | wc -l'
+/home/ishan>noAllf
+9
+/home/ishan>noAsubsir
+56
+/home/ishan>noAcs
+7
+/home/ishan>fc -l
+400	 cd
+401	 nano .bashrc
+402	 script 19031315cw2part1
+403	 ..bashrc
+404	 .bashrc
+405	 ..bashrc
+406 	 clear
+407 	 . .bashrc
+408      PS1='$PWD>'
+409      alias
+410      alias noAllf='ls -a | wc -l'
+411      alias noAsubsir='ls -aR | wc -l'
+412      alias noAcs='ls -aR | grep ^[gtw] | wc -l'
+413      noAllf
+414      noAsubsir
+415      noAcs
+/home/ishan>!-8
+alias
+alias ls='ls --color=auto'
+alias lsa='ls -a'
+alias lsal='ls -al'
+alias noAcs='ls -aR | grep ^[gtw] | wc -l'
+alias noAllf='ls -a | wc -l'
+alias noAsubsir='ls -aR | wc -l'
+/home/ishan>fc -e- m
+mkdir -p NBA/{Lakers,Miami,"Chicago Bulls","Brooklyn nets","Dallas Maverick"}
+/home/ishan>exit
+Script done, file is 19031315cw2part1
